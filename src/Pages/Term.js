@@ -4,13 +4,13 @@ import {motion} from 'framer-motion'
 
 const Term = () =>{
     return(
-        <div className="terms w-full h-screen">
+        <div className="terms w-full h-auto">
 
 <div className="border border-1 bg-transparent termbox"
        
         >
 
-            <div className=" " style={{ "width": "344px", "height": "70px", "marginTop": "80px", "marginLeft": "87px" }}>
+            <div className="abouthead align-center " >
                 <span style={{ "fontFamily": "Nasalization", "fontSize": "36.22px" }} className="text-white mx-auto" >Terms & Condition</span>
 
 

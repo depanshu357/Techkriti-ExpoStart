@@ -5,13 +5,13 @@ const About = () => {
 
     return (
         <>
-            <div className=" about w-full h-screen">
+            <div className=" about w-full h-auto">
 
             <div className="  border border-1 bg-transparent aboutbox" 
                  
                 >
 
-                    <div className=" " style={{ "width": "344px", "height": "80px", "marginTop": "80px", "marginLeft": "87px" }}>
+                    <div className="abouthead align-center" >
                         <span style={{ "fontFamily": "Nasalization", "fontSize": "36.22px" }} className="text-white mx-auto" >About</span>
 
 
