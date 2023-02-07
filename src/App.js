@@ -15,8 +15,12 @@ function App() {
         <Header />
         <Home />
         <About />
+        {/* <Term /> */}
+        {/* <Sidebar />
+        <Home />
+        <About />
         <Term />
-        <Why />
+        <Why /> */}
         {/* <Sidebar />
         <About />
         <Term />
