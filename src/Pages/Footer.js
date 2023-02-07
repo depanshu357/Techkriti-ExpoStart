@@ -1,28 +1,39 @@
+
+import './Footer.css'
 import logo from '../Components/logo.png'
+import {Link} from 'react-scroll'
+import {motion} from 'framer-motion'
+
 const Footer = () => {
 
     return (
-        <div className="w-full h-auto mb-0">
+        <div className="footer w-full h-auto mb-0">
 
-            <div class="flex justify-center  mt-8 space-x-6 " style={{ "marginTop": "120px" }}>
+            <div className="flex justify-center space-x-6 " style={{ "marginTop": "120px" }}>
                 <button className="bg-white border" style={{ "padding": "10px", "fontSize": "30px", "borderRadius": "17px" }}>Register Now</button>
             </div>
 
-            <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+            <div class="max-w-screen-xl px-4 py-0 mx-auto space-y-0 overflow-hidden sm:px-6 lg:px-8">
                 <nav class="flex flex-wrap justify-center -mx-5 -my-2" style={{"marginTop":"100px"}} >
                     <div class="px-12 py-2">
                         <a href="#" style={{ "fontSize": "35px" }} class="text-base leading-6 text-white hover:text-gray-900">
-                            Home
+                        <Link to="home" spy={true} smooth={true} offset={0} >
+                    Home
+                    </Link>
                         </a>
                     </div>
                     <div class="px-12 py-2">
                         <a href="#" style={{ "fontSize": "35px" }} class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                            About
+                        <Link to="about" spy={true} smooth={true} offset={0} >
+                    About
+                    </Link>
                         </a>
                     </div>
                     <div class="px-12 py-2">
                         <a href="#" style={{ "fontSize": "35px" }} class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                            Terms
+                        <Link to="terms" spy={true} smooth={true} offset={0} >
+                    Terms
+                    </Link>
                         </a>
                     </div>
                     <div class="px-12 py-2">
@@ -32,7 +43,9 @@ const Footer = () => {
                     </div>
                     <div class="px-12 py-2">
                         <a href="#" style={{ "fontSize": "35px" }} class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                            why
+                        <Link to="why" spy={true} smooth={true} offset={0} >
+                    Why
+                    </Link>
                         </a>
                     </div>
 
@@ -42,7 +55,12 @@ const Footer = () => {
             </div>
             <div className="bg-transparent border w-full h-auto" style={{ "borderRadius": "42px 42px 0px 0px","marginTop":"100px" }}>
                 <div className='flex justify-center mx-auto' style={{ "marginTop": "45px" }}>
-                    <img style={{ paddingTop: '5px', "width": "200px" }} alt='logo' src={logo} />
+                    <motion.img style={{ paddingTop: '5px', "width": "150px" }} alt='logo' src={logo}
+                      initial={{scale:0.3, opacity: 0}}
+                      whileInView={{scale:1, opacity: 1}}
+                      viewport={{once:false, amount:0.4}}
+                      transition={{duration: 0.6}}
+                    />
 
                 </div>
                 <div className='flex justify-center mx-auto' style={{ "marginTop": "45px" }}>
