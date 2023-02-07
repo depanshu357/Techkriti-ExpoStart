@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="w-full h-auto mb-0">
 
-            <div class="flex justify-center  mt-8 space-x-6 " style={{ "marginTop": "120px" }}>
+            <div class="flex justify-center mt-8 space-x-6 footer " >
                 <button className="bg-white border" style={{ "padding": "10px", "fontSize": "30px", "borderRadius": "17px" }}>Register Now</button>
             </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
                 </nav>
 
             </div>
-            <div className="bg-transparent border w-full h-auto" style={{ "borderRadius": "42px 42px 0px 0px","marginTop":"100px" }}>
+            <div className="bg-transparent border w-full h-auto" style={{ "borderRadius": "42px 42px 0px 0px","marginTop":"100pxx" }}>
                 <div className='flex justify-center mx-auto' style={{ "marginTop": "45px" }}>
                     <img style={{ paddingTop: '5px', "width": "200px" }} alt='logo' src={logo} />
 
