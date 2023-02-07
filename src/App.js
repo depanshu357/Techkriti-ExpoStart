@@ -13,22 +13,16 @@ function App() {
     <>
       <div className="flex flex-col items-center justify-center min-h-screen py-2">
         <Header />
-        <Home />
-        <About />
-        {/* <Term /> */}
-        {/* <Sidebar />
+        <Sidebar />
         <Home />
         <About />
         <Term />
-        <Why /> */}
-        {/* <Sidebar />
-        <About />
-        <Term />
-        <Why /> */}
+        <Why />
+       
         
         
       </div>
-      {/* <Footer /> */}
+      <Footer />
      
     </>
 

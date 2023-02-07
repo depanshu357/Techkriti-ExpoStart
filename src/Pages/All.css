@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .homehead{
   
   margin-top: 300px;

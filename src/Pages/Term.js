@@ -6,7 +6,7 @@ const Term = () =>{
     return(
         <div className="terms w-full h-screen">
 
-<div className=" absolute border border-1 bg-transparent termbox"
+<div className="border border-1 bg-transparent termbox"
        
         >
 

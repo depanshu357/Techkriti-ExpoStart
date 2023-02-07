@@ -5,9 +5,9 @@ const About = () => {
 
     return (
         <>
-            <div className="about w-full h-screen">
+            <div className=" about w-full h-screen">
 
-            <div className=" absolute border border-1 bg-transparent aboutbox" 
+            <div className="  border border-1 bg-transparent aboutbox" 
                  
                 >
 
