@@ -18,11 +18,11 @@ function App() {
         <About />
         <Term />
         <Why />
+      <Footer />
        
         
         
       </div>
-      <Footer />
      
     </>
 
