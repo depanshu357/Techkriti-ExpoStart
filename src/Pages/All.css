@@ -53,6 +53,8 @@
     margin-right: 15px;
     background-color: rgba(38, 121, 133, 0.3);
     
+    
+    
 
   }
 
@@ -131,11 +133,13 @@
 
   .aboutbox{
     width: 1113px;
-    height: 680px;
+    height: 780px;
     border-radius: 42px;
     margin-top: 180px;
     margin-left:120px ;
     background-color: rgba(38, 121, 133, 0.3);
+    
+    
 
   }
   .termbox{
@@ -152,7 +156,7 @@
   .aboutboxcontent{
     margin-top:21px;
     padding:10px;
-    margin-left:80px;
+    margin-left:40px;
     font-size:28px;
     margin-right:99px;
   }
@@ -176,9 +180,7 @@
   .footer{
     margin-top: 120px;
  }
- .footer a{
-    font-size: 35px; 
- }
+ 
   }
 
 

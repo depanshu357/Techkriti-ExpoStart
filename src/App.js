@@ -11,10 +11,9 @@ import Footer from './Pages/Footer';
 function App() {
   return (
     <>
-      <div className="flex flex-col overflow-hidden items-center justify-center min-h-screen py-2 ">
-      <Sidebar />
-
+      <div className="flex flex-col items-center justify-center min-h-screen py-2">
         <Header />
+        <Sidebar />
         <Home />
         <About />
         <Term />
