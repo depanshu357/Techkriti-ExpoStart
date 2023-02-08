@@ -16,7 +16,7 @@ const Why = () => {
     
                         </div>
                         <div className="w-auto text-white flex whyboxcontent" >
-                    <p style={{"fontSize":"18px"}}>
+                    <p className='poppara' style={{"fontSize":"18px"}}>
                     Entrepreneurship Cell, IIT Kanpur is an enthusiastic bunch of students who are working to induce an entrepreneurial mindset into the community and to air an innovative streak in them. In a world where 
                     </p>
     
