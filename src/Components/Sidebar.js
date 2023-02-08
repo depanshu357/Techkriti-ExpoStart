@@ -5,28 +5,9 @@ import { useState,useEffect } from 'react';
 const Sidebar = () => {
     const [isVisible, setIsVisible] = useState(true);
     const [height,setHeight] = useState(0)
-    {/* <Link to="intro_n" spy={true} smooth={true} offset={-30} className="nav__link">
-                            INTRODUCTION
-                        </Link> */}
+ 
 
-    useEffect(() => {
-        window.addEventListener("scroll", listenToScroll);
-        return () =>
-            window.removeEventListener("scroll", listenToScroll);
-    }, [])
-
-    const listenToScroll = () => {
-       
-       
-        if (document.getElementById("sampleId").isOnScreen() == true) {
-            isVisible && setIsVisible(false);
-        }
-        else{
-            setIsVisible(true);
-        }
-    
-          
-      };
+   
     return (
 
         <>

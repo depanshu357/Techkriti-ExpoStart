@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 const Term = () =>{
     return(
-        <div className="terms w-full h-auto">
+        <div className="terms w-full h-screen">
 
 <div className="border border-1 bg-transparent termbox"
        
