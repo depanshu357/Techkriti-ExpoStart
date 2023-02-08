@@ -9,6 +9,7 @@ import Why from './Pages/Why';
 import Footer from './Pages/Footer';
 
 function App() {
+ 
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen py-2">

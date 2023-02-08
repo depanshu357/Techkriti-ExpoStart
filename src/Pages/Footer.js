@@ -1,14 +1,15 @@
 import logo from '../Components/logo.png'
 const Footer = () => {
+  
 
     return (
-        <div className="w-full h-auto mb-0">
+        <div id="sampleId" className="w-full h-auto mb-0" style={{"marginTop":"100px"}}>
 
-            <div class="flex justify-center mt-8 space-x-6 footer " >
+            {/* <div class="flex justify-center mt-8 space-x-6 footer " style={{"marginBottom":"100px"}}>
                 <button className="bg-white border" style={{ "padding": "10px", "fontSize": "30px", "borderRadius": "17px" }}>Register Now</button>
-            </div>
+            </div> */}
 
-            <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+            {/* <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
                 <nav class="flex flex-wrap justify-center -mx-5 -my-2" style={{"marginTop":"100px"}} >
                     <div class="px-12 py-2">
                         <a href="#" style={{ "fontSize": "35px" }} class="text-base leading-6 text-white hover:text-gray-900">
@@ -39,9 +40,9 @@ const Footer = () => {
 
                 </nav>
 
-            </div>
+            </div> */}
             <div className="bg-transparent border w-full h-auto" style={{ "borderRadius": "42px 42px 0px 0px","marginTop":"100pxx" }}>
-                <div className='flex justify-center mx-auto' style={{ "marginTop": "45px" }}>
+                <div className='flex justify-center mx-auto' style={{ "marginTop": "105px" }}>
                     <img style={{ paddingTop: '5px', "width": "200px" }} alt='logo' src={logo} />
 
                 </div>

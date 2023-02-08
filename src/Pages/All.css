@@ -114,7 +114,11 @@
       width: 344px;
       height: 80px;
       margin-top: 80px;
-      margin-left: 87px;
+      margin-left: 27px;
+    }
+    .abouthead span{
+      float: left;
+      margin-left: 20px;
     }
     
     .homehead{
