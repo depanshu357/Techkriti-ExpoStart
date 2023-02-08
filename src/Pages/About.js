@@ -11,7 +11,7 @@ const About = () => {
                  
                 >
 
-                    <div className=" " style={{ "width": "344px", "height": "80px", "marginTop": "80px", "marginLeft": "87px" }}>
+                    <div className="abouthead align-center" >
                         <span style={{ "fontFamily": "Nasalization", "fontSize": "36.22px" }} className="text-white mx-auto" >About</span>
 
 

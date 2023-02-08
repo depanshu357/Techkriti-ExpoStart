@@ -1,5 +1,5 @@
-body{
-    overflow-x: hidden;
+.body{
+  overflow-x: hidden;
 }
 
 .homehead{
@@ -52,6 +52,9 @@ body{
     margin-left:15px ;
     margin-right: 15px;
     background-color: rgba(38, 121, 133, 0.3);
+    
+    
+    
 
   }
 
@@ -93,7 +96,26 @@ body{
     margin-right:10px;
   }
 
+  .abouthead{
+    margin-top: 10px;
+    text-align: center;
+    
+  
+    height: 40px;
+   
+  }
+
+  
+
+
   @media screen and (min-width: 1000px) {
+
+    .abouthead{
+      width: 344px;
+      height: 80px;
+      margin-top: 80px;
+      margin-left: 87px;
+    }
     
     .homehead{
         width: 400px;
@@ -111,11 +133,13 @@ body{
 
   .aboutbox{
     width: 1113px;
-    height: 680px;
+    height: 780px;
     border-radius: 42px;
     margin-top: 180px;
     margin-left:120px ;
     background-color: rgba(38, 121, 133, 0.3);
+    
+    
 
   }
   .termbox{
@@ -132,7 +156,7 @@ body{
   .aboutboxcontent{
     margin-top:21px;
     padding:10px;
-    margin-left:80px;
+    margin-left:40px;
     font-size:28px;
     margin-right:99px;
   }
@@ -153,13 +177,12 @@ body{
   .footer{
     margin-top: 120px;
  }
- .footer a{
-    font-size: 35px; 
- }
+ 
   }
 
 
 
   /* style={{"marginTop":"119px","marginLeft":"130px"}} */
 
- 
+
+  
