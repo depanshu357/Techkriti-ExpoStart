@@ -6,7 +6,7 @@ const Home = () =>{
 
     return (
         
-        <div className="homeback home w-full h-screen">
+        <div className="homeback home w-full min-h-screen">
             <motion.div
             initial={{x:-300, opacity: 0}}
             whileInView={{x:0, opacity:1}}

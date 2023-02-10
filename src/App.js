@@ -19,11 +19,12 @@ function App() {
         <About />
         <Term />
         <Why />
-      <Footer />
+        <Footer />
        
         
         
       </div>
+      
      
     </>
 

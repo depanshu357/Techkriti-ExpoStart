@@ -5,7 +5,7 @@ const Footer = () => {
 
 
     return (
-        <div id="sampleId" className="w-full footerback h-screen" >
+        <div id="sampleId" className="w-full footerback h-auto" >
 
                 
 

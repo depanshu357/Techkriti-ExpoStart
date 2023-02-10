@@ -107,7 +107,7 @@
   
 
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1220px) {
 
     .abouthead{
       width: 344px;
@@ -188,4 +188,23 @@
   /* style={{"marginTop":"119px","marginLeft":"130px"}} */
 
 
+.hlink{
+  color: #007296;
+}
+
+.alink{
+  color: #267985;
+
+}
   
+.tlink{
+  color:#430024;
+}
+
+.mlink{
+  color: #737779;
+}
+
+.wlink{
+  color: #003962;
+}

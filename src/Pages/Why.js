@@ -3,7 +3,7 @@ import './Why.css'
 const data = [1,2,3,4,5,6]
 const Why = () => {
     return (
-        <div className="whyback w-full grid h-screen">
+        <div className="whyback w-full grid min-h-screen">
 
             <div  class="grid sm:grid-cols-2 md:grid-cols-3  why">
 
