@@ -22,6 +22,16 @@
         margin-top: 300px;
         margin-left: 260px;
       } */
+
+      .hed{
+        font-size: 40px;
+      }
+
+      .scrollit{
+        font-size: 26px;
+        padding: 20px;
+      }
+      
   }
 
   @media screen and (max-width: 600px) {
@@ -33,17 +43,28 @@
         margin-left: 260px;
       } */
       .homehead{
-  
-        margin-top: 200px;
-       
+        margin-top: 200px;   
       }
       .homehead2{
-
-
         font-size: 80px;
+      }
 
+      .scrollit{
+        height: 60vh;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      .why{
+        height: 80vh;
+        overflow: hidden;
+        overflow-y: scroll;
       }
   }
+
+
 
   .aboutbox{
    
@@ -62,7 +83,7 @@
     margin-top:21px;
     
     margin-left:10px;
-    font-size:18px;
+    font-size:26px;
     margin-right:10px;
   }
 
@@ -103,6 +124,14 @@
     height: 40px;
    
   }
+
+  /* .scrollit{
+    height: 50vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+  } */
+
 
   
 
