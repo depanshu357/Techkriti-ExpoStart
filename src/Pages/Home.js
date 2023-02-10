@@ -14,7 +14,7 @@ const Home = () =>{
             transition={{duration:1.0}}
             >
         <div className="grid bg-transparent items-center justify-center homehead" >
-            <span style={{"fontFamily":"Nasalization","fontSize":"36.22px"}} className="text-white mx-auto" > TECHKRITI'23</span>
+            <span style={{"fontFamily":"Nasalization","fontSize":"36.22px"}} className="tech text-white mx-auto" > TECHKRITI'23</span>
             <span style={{"fontFamily":"Nasalization","fontSize":"20.22px","color":"#007296"}} className="text-white mx-auto" > presents</span>
 
         </div>
