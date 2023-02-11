@@ -15,7 +15,7 @@ const Sidebar = () => {
 
             {isVisible ?
                 <>
-                    <div className=" top-0 grid h-screen place-items-center right-0 w-[25vw] bg-transparent   pl-20 text-white fixed h-full ">
+                    <div className="sidebar top-0 grid h-screen place-items-center right-0 w-[25vw] bg-transparent   pl-20 text-white fixed h-full ">
                         <div className="grid my-auto w-full  justify-items-end">
 
                             <div className="mt-10 text-xl w-auto font-semibold text-white right-0 flex">
