@@ -11,7 +11,7 @@ const Footer = () => {
 
 
 
-                    <div className=" bg-transparent border " style={{ "borderRadius": "42px 42px 0px 0px","bottom":"0%" }}>
+                    <div className=" bg-transparent border " style={{ "borderRadius": "42px 42px 0px 0px","bottom":"0%","marginLeft":"10px","marginRight":"10px" }}>
                         <div className='flex justify-center mx-auto' style={{ "marginTop": "105px" }}>
                             <img style={{ paddingTop: '5px', "width": "200px" }} alt='logo' src={logo} />
 

@@ -1,6 +1,12 @@
 .homeback{
     background-image: url("./homebg.png");
-    background-position: center;
+     /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
 
