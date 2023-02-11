@@ -2,5 +2,23 @@
    background-color: black;
 }
 
+.dep-about{
+   background: url("About.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   width: 80%;
+}
+.dep-about-content{
+   height: fit-content;
+   font-size: 20px;
+   padding: 40px;
+   font-size: 26px;
 
+}
 

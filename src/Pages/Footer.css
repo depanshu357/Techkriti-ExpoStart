@@ -1,4 +1,27 @@
 .footerback{
-   background-color: black;
+   /* background-color: black; */
     
+
+}
+
+.dep-footer-page-background{
+   background: url("Footer.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 100%;
+   height: 100vh;
+}
+.dep-page-positions-links{
+   margin: 5px;
+   padding: 5px;
+   display: flex;
+   flex-direction: row;
+   font-size: 20px;
+   font-family: "Nasalization";
+   justify-content:center;
+}
+.dep-page-positions-links span{
+   margin: 5px 25px;
+   cursor: pointer;
 }
